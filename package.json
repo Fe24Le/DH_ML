@@ -1,5 +1,5 @@
 {
-  "name": "clase11practica",
+  "name": "DH-Mercado-liebre",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -7,9 +7,14 @@
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fe24Le/DH_ML.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "hector fernando calisaya",
   "license": "ISC",
+  "homepage": "https://github.com/Fe24Le/DH_ML#readme",
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^3.0.3",
