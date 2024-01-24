@@ -71,6 +71,7 @@ header {
     border-radius: 5px;
     padding: 5px 10px;
     margin-right: 5px;
+    width:20%;
 }
 
 .fa-magnifying-glass{
@@ -447,17 +448,7 @@ footer i {
             padding: 0px 10px;
         }
 
-        #box__logo__search{
-            width: 70vw;
-        }
 
-        .search{
-            width: 80%;
-            font-size: 0.9rem;
-        }
-        .button__lupa{
-        margin-left: 30px;
-    }
 }
 @media (min-width: 1200px) {
     .header-top-bar,
@@ -473,13 +464,7 @@ footer i {
     .barra-busqueda {
         width: 30vw;
     }
-    .search{
-        width: 80%;
-        font-size: 0.9rem;
-    }
-    .button__lupa{
-        margin-left: 30px;
-    }
+ 
     .comprar-cuotas {
         max-width: none;
     }
