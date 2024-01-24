@@ -10,10 +10,10 @@ app.listen(port,()=> console.log(`Servidor corriendo en el puerto ${port}`));
 
 //función middleware para servir archivos estáticos esta son las opciones
 
-app.use('/', express.static(__dirname + '/views')); //esta  es la mas especifica 
+app.use('/', express.static(__dirname + '/pages_form')); //esta  es la mas especifica 
 
-app.use(express.static('public')); //para los archivos css 
-
+app.use(express.static('css')); //para los archivos css 
+app.use(express.static('images')); 
 //links a paginas
 
 app.get('/', function(req, res){
