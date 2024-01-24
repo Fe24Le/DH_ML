@@ -398,56 +398,67 @@ footer i {
     }
 }
 
-@media (min-width: 769px) {
+    @media (min-width: 769px){
+        /* header - logo - search - cuotas */
+        .logo {
+            width: 30%;
+        }
 
-    .logo {
-        width: 30%;
-    }
+        .comprar-cuotas {
+            max-width: 350px;
+        }
 
-    .comprar-cuotas {
-        max-width: 350px;
-    }
+        header ul {
+            display: flex;
+            flex-direction: row;
+            width: auto;
+        }
 
-    header ul {
-        display: flex;
-        flex-direction: row;
-        width: auto;
-    }
+        .descripcion {
+            display: block;
+            font-size: 16px;
+            color: #666;
+            visibility: hidden;
+        }
+        main article:hover .descripcion{
+            visibility: visible;
+        }
 
-    .descripcion {
-        display: block;
-        font-size: 16px;
-        color: #666;
-        visibility: hidden;
-    }
-    main article:hover .descripcion{
-        visibility: visible;
-    }
+        main article {
+            box-shadow: none;
+            width: 23%;
+        }
+        main article:hover {
+            box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+        .burger-menu {
+            display: none;
+        }
 
-    main article {
-        box-shadow: none;
-        width: 23%;
-    }
-    main article:hover {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .burger-menu {
-        display: none;
-    }
+        main article i {
+            transition: all 450ms;
+        }
+        main article:hover i {
+            transform: rotate(-90deg);
+        }
 
-    main article i {
-        transition: all 450ms;
-    }
-    main article:hover i {
-        transform: rotate(-90deg);
-    }
+        footer section {
+            width: 30%;
+            padding: 0px 10px;
+        }
 
-    footer section {
-        width: 30%;
-        padding: 0px 10px;
+        #box__logo__search{
+            width: 70vw;
+        }
+
+        .search{
+            width: 80%;
+            font-size: 0.9rem;
+        }
+        .button__lupa{
+        margin-left: 30px;
     }
 }
-
 @media (min-width: 1200px) {
     .header-top-bar,
     .nav-bar{
@@ -462,7 +473,13 @@ footer i {
     .barra-busqueda {
         width: 30vw;
     }
-
+    .search{
+        width: 80%;
+        font-size: 0.9rem;
+    }
+    .button__lupa{
+        margin-left: 30px;
+    }
     .comprar-cuotas {
         max-width: none;
     }
