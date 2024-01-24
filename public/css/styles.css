@@ -246,8 +246,7 @@ main section article i{
 
 footer {
     background-color: #ebebeb;
-    position: absolute;
-    bottom: 0;
+
 }
 
 .footer {
@@ -258,9 +257,6 @@ footer {
     text-align: center;
     background-color: #ffffff;
     margin-top: 20px;
-
-
-
 }
 
 footer section {
