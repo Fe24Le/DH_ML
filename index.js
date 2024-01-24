@@ -22,11 +22,11 @@ app.get('/', function(req, res){
   });
 
 app.get('./pages__form/login.html', function(req, res){
-    res.sendFile(path.join(__dirname + '/babbage.html'))
+    res.sendFile(path.join(__dirname + '/pages__form/login.html'))
   });
 
 app.get('./pages__form/register.html', function(req, res){
-    res.sendFile(path.join(__dirname +'/berners-lee.html'))
+    res.sendFile(path.join(__dirname +'/pages__form/register.html'))
    
   });
 
